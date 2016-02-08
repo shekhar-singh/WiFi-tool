@@ -10,4 +10,4 @@ setup(
     packages=['WiFi-tool'],
     install_requires=[
         'termcolor-1.1.0'
-    )
+])
