@@ -1,13 +1,13 @@
-from setuptools import setup
+from setuptools import setup,find_packages
 
 setup(
-    name='Wifi-Tool',
+    name='nmcli',
     version='0.1.0',
     description='Wifi analysis and connecting tool',
     author='Shekhar Singh Choudhary',
     author_email='sschoudhary60@gmail.com',
     url='https://github.com/shekhar-singh/WiFi-tool',
-    packages=['WiFi-tool'],
-    install_requires=[
-        'termcolor-1.1.0'
-])
+    packages=['nmcli'],
+    install_requires=['termcolor-1.1.0'],
+    scripts=['nmcli.py']
+)
