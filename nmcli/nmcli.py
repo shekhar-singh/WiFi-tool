@@ -1,16 +1,16 @@
 import os
 import time
-from termcolor import colored
+#from termcolor import colored
 
 def choose():
     while(True):
-        print colored('[ 1 ]','blue'),colored("Get Wifi Status :",'green')
-        print colored('[ 2 ]','blue'),colored("Turn Wifi ON ",'green')
-        print colored('[ 3 ]','blue'),colored("Turn Wifi OFF ",'green')
-        print colored('[ 4 ]','blue'),colored("Available WiFi List : ",'green')
-        print colored('[ 5 ]','blue'),colored("Connect to an Open WiFi :",'green')
-        print colored('[ 6 ]','blue'),colored("Connect to a Password Protected WiFi :",'green')
-        print colored('[ 7 ]','red'),colored("Exit",'red')
+        print ('[ 1 ] Get Wifi Status :')
+        print ('[ 2 ] Turn Wifi ON :')
+        print ('[ 3 ] Turn Wifi OFF :')
+        print ('[ 4 ] Available WiFi List : ')
+        print ('[ 5 ] Connect to an Open WiFi :')
+        print ('[ 6 ] Connect to a Password Protected WiFi :')
+        print ('[ 7 ] Exit ')
         #print colored('[ 9 ]','blue'),colored("Help",'green')
 
         print

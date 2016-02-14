@@ -1,4 +1,4 @@
-from setuptools import setup,find_packages
+from setuptools import setup
 
 setup(
     name='nmcli',
@@ -8,6 +8,6 @@ setup(
     author_email='sschoudhary60@gmail.com',
     url='https://github.com/shekhar-singh/WiFi-tool',
     packages=['nmcli'],
-    install_requires=['termcolor-1.1.0'],
-    scripts=['nmcli.py']
+    #install_requires=['termcolor-1.1.0'],
+    #scripts=['nmcli.py']
 )
